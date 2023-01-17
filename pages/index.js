@@ -73,7 +73,7 @@ export default function Home() {
   const [useVideoBackground, setUseVideoBackground] = useState(false);
   const [idleVideoLoop, setIdleVideoLoop] = useState(false);
   const [textInput, setTextInput] = useState("");
-  const [audioUrl, setAudioUrl] = useState("https://filesamples.com/samples/audio/mp3/sample1.mp3"); // Suggest declaring in constants.js
+  const [audioUrl, setAudioUrl] = useState("https://askmarley.com/audio/welcome-to-ask-marley.mp3"); // Suggest declaring in constants.js
   const [videoUrl, setVideoUrl] = useState("");
   const [result, setResult] = useState();
   const [lang, setLang] = useState("en_US");
